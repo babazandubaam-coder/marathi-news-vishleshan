@@ -1,34 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="mr">
 <head>
-  <title>माझा ब्लॉग</title>
-  <style>
-    body {font-family: Arial; margin:0; background:#f4f4f4;}
-    header {background:#333; color:white; padding:15px; text-align:center;}
-    .container {padding:20px;}
-    .post {background:white; padding:15px; margin-bottom:15px; border-radius:10px;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marathi News Vishleshan</title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #d32f2f;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.post h2 {
+  color: #d32f2f;
+}
+
+.sidebar-box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>माझा ब्लॉग</h1>
-  <p>ज्ञान, माहिती आणि कमाई</p>
+  <h1>Marathi News Vishleshan</h1>
+  <p>आजची बातमी आणि तिचं विश्लेषण</p>
 </header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Technology</a>
+  <a href="#">Business</a>
+  <a href="#">AI News</a>
+</nav>
 
 <div class="container">
 
-  <div class="post">
-    <h2>पहिला ब्लॉग पोस्ट</h2>
-    <p>इथे तुमचा ब्लॉग लिहा...</p>
-  </div>
+<div class="main">
 
-  <div class="post">
-    <h2>दुसरा ब्लॉग पोस्ट</h2>
-    <p>इथे तुमचा ब्लॉग लिहा...</p>
-  </div>
+<div class="post">
+<h2>AI मुळे नोकऱ्यांवर परिणाम?</h2>
+<p>Artificial Intelligence मुळे अनेक नोकऱ्यांमध्ये बदल होत आहेत...</p>
+</div>
+
+<div class="post">
+<h2>भारतामध्ये AI चा वापर वाढतोय</h2>
+<p>भारतामध्ये AI चा वापर विविध क्षेत्रात वाढत आहे...</p>
+</div>
 
 </div>
+
+<div class="sidebar">
+
+<div class="sidebar-box">
+<h3>About</h3>
+<p>हा ब्लॉग रोजच्या महत्वाच्या बातम्या आणि त्यांचे विश्लेषण देतो.</p>
+</div>
+
+<div class="sidebar-box">
+<h3>Latest News</h3>
+<p>दररोज नवीन अपडेट्स</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Marathi News Vishleshan</p>
+</footer>
 
 </body>
 </html>
